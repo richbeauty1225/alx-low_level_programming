@@ -8,9 +8,8 @@
 
 int main(void)
 {
-       	int lowerC, upperC;
-
-       	lowerC = 'a';
+int lowerC, upperC;
+	lowerC = 'a';
        	upperC = 'A';
 
        	while (lowerC <= 'z')
