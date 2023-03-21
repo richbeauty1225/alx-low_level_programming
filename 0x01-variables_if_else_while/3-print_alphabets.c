@@ -8,21 +8,21 @@
 
 int main(void)
 {
-        int lowerC, upperC;
+       	int lowerC, upperC;
 
-        lowerC = 'a';
-        upperC = 'A';
+       	lowerC = 'a';
+       	upperC = 'A';
 
-        while (lowerC <= 'z')
+       	while (lowerC <= 'z')
         {
-                putchar(lowerC);
-                lowerC += 1;
+	       	putchar(lowerC);
+	      	lowerC += 1;
         }
-        while (upperC <= 'Z')
+       	while (upperC <= 'Z')
         {
-                putchar(upperC);
-                upperC += 1;
+	    	putchar(upperC);
+	    	upperC += 1;
         }
-        putchar('\n');
-        return (0);
+       	putchar('\n');
+       	return (0);
 }
